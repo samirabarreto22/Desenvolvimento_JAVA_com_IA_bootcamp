@@ -1,10 +1,11 @@
-package projetos.msnmessanger.src;
+package projetos.msnmessanger.src.apps;
 
 public class FacebookMessanger extends ServicoMensagemInstantanea{
 
     @Override
     public void receberMensagem() {
         System.out.println("Recebendo msg pelo facebook messanger");
+        validarConectadoInternet();
     }
 
     @Override
