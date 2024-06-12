@@ -5,9 +5,7 @@ public class ComputadorPedrinho {
         // abrindo MSN Messanger
         MSNMessanger msn = new MSNMessanger();
 
-        msn.validarConectadoInternet();
         msn.enviarMensagem();
-        msn.salvarHistoricoMensagem();
 
         msn.receberMensagem();
     }
