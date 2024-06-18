@@ -1,5 +1,10 @@
 package projetos.iphone.src;
 
-public class NavegadorInternet {
+public interface  NavegadorInternet {
     
+    public void exibirPagina();
+    public void adicionarNovaAba();
+    public void adicionarPagina();
+
+
 }
